@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, td, th, body, input, textarea {
+    line-height: 140%;
+    font-family: 'Open sans', sans-serif;
+}
+
+p, li, dt, dd, body, input, textarea {
+    color: $typography;
+    font-weight: 300;
+}
+
+a, a:hover, a:active, a:focus, input, input:focus, textarea, textarea:focus, button, button:active, button:focus {
+    outline: none;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.light-blue-font-color {
+    color: $light-blue;
+}
+
+.dark-blue-font-color {
+    color: $dark-blue;
+}
+
+.dark-blue-hover-font-color {
+    &:hover {
+        color: $dark-blue;
+    }
+}
+
+.white-font-color {
+    color: $white;
+}
+
+.light-blue-bg {
+    background-color: $light-blue;
+}
+
+.dark-blue-bg {
+    background-color: $dark-blue;
+}
+
+.darker-light-blue-bg-hover {
+    &:hover {
+        background-color: darken($light-blue, 10%);
+    }
+}
+
+.white-bg {
+    background-color: $white;
+}
+
+.light-grey-bg {
+    background-color: $light-grey;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+

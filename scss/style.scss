@@ -1,0 +1,70 @@
+// import fonts
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Oswald:400,700');
+
+// import the basic layout and colors
+
+@import "skeleton/variables-mixins";
+@import "skeleton/normalize";
+@import "skeleton/skeleton";
+@import "skeleton/typography";
+
+// import the menu
+
+@import "headers/menu";
+
+// import all headers
+
+@import "headers/header";
+@import "headers/header-homepage";
+@import "headers/header-news";
+@import "headers/header-news-inner";
+@import "headers/header-landing";
+@import "headers/header-careers";
+@import "headers/header-about";
+@import "headers/header-leadership";
+@import "headers/header-resources";
+
+// import elements and components
+
+@import "elements/buttons";
+@import "elements/news-navigation-btns";
+
+// import all sections
+
+@import "sections/homepage/homepage-introduction";
+@import "sections/homepage/homepage-boxes";
+@import "sections/homepage/homepage-stripe";
+@import "sections/news/news-filter";
+@import "sections/news/news-articles";
+@import "sections/news/news-inner-article";
+@import "sections/news/news-inner-img";
+@import "sections/news/news-testimonials";
+@import "sections/news/news-box-with-images";
+@import "sections/news/news-about-box";
+@import "sections/landing/landing-items";
+@import "sections/landing/landing-testimonials";
+@import "sections/landing/landing-how-we-work";
+@import "sections/landing/landing-bottom-stripe";
+@import "sections/careers/careers-first-box";
+@import "sections/careers/careers-hot-jobs";
+@import "sections/careers/careers-boxes";
+@import "sections/careers/careers-rewards";
+@import "sections/careers/careers-search-open-positions";
+@import "sections/about/about-first-box";
+@import "sections/about/about-stats";
+@import "sections/about/about-mission";
+@import "sections/about/about-values";
+@import "sections/about/about-articles";
+@import "sections/about/about-safety";
+@import "sections/leadership/leadership-first-box";
+@import "sections/leadership/leadership-members";
+@import "sections/leadership/leadership-contact";
+@import "sections/resources/resources-first-box";
+@import "sections/resources/resources-services";
+@import "sections/resources/resources-brands";
+@import "sections/resources/resources-faq";
+
+// import footer
+
+@import "footer/footer";
